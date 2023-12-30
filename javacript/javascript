@@ -1,0 +1,25 @@
+scriptinglanguage , dynamic website 
+brendan eich- father of javascript
+an interpreted language 
+standardised bye ECMA International
+biggest comunity on stack overflow
+can be used in both frontend and backend 
+good performance
+has many frameworks
+used for desktop application(electron js)_
+variable names at
+
+
+
+core fundamental of js0 everything in jshappens inside an execution context.
+Es1 -19987
+ES5- 2009
+ES6 - 2015(Biggest update in the history of js)
+javascript is backward compatible. not forward compatible .
+browser not updated .  new features launched today will not work in the previous browser. 
+Babel - tool to transpile the code . ES6-ES5 code
+
+
+array methods - pop() , push(), shift() , unshift(), concat(), join()
+
+

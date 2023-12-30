@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>higher order function</title>
+</head>
+<body>
+    <p id="demo"></p>
+  <script>
+    // //map/reduce/filter
+    // const n=[56,54,34,4];
+    // const arr=n.map(myFunction);
+    // document.getElementById("demo").innerHTML=arr;
+
+    // function myFunction(num){
+    //  return num*10;
+    // }
+
+    //filter function
+    // const n=[56,54,34,4,35,58,55];
+    // const arr=n.filter(myFunction);
+    // document.getElementById("demo").innerHTML=arr;
+
+    // function myFunction(num){
+    //  return num%2==0;
+    // }
+
+    //reduce option- 
+    // const n=[56,54,34,4,65,100];
+    // const arr=n.reduce(myFunction);
+    // document.getElementById("demo").innerHTML=arr;
+
+    // function myFunction(num1,num2){
+    //  if(num1> num2)
+    //  {
+    //     return num1 
+    // }
+    //     else{
+    //         return num2;
+    //     }
+    //  }
+
+
+    //reduce right
+    const n=[56,54,34,4,65,100];
+    const arr=n.reduceRight(myFunction);
+    document.getElementById("demo").innerHTML=arr;
+
+    function myFunction(num1,num2){
+     if(num1> num2)
+     {
+        return num1 
+    }
+        else{
+            return num2;
+        }
+     }
+
+
+     //  even no-arrow function
+     // map arrow
+     // reduce ke through sum krna
+     // reduce right kw through subtract
+  </script>
+</body>
+</html>
